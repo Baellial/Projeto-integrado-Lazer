@@ -1,0 +1,132 @@
+body{
+    background-color: #0f0b1e;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: #1d1247;
+    box-shadow: 1px 1px 4px;
+    height: 56px;
+}
+#title{
+    margin-left: 15px;
+}
+#titulo {
+    line-height: 20px;
+    margin-left: 20px;
+}
+a{
+    color: rgb(219, 212, 224);
+}
+a:hover{
+    color:#150e2c;
+    transition: 0.3s all linear;
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+.NavBar{
+    flex-direction: column
+}
+h1{
+    font-weight: 200;
+}
+li{
+    display: inline-block;
+    margin : 13px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px;
+   border-radius: 25px;
+   font-size: 12px;
+   background-color: #342d4b;
+   font-weight: bold;
+}
+.VerMais{
+    display: inline-block;
+    margin : 13px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px;
+   border-radius: 25px;
+   font-size: 12px;
+   background-color: #342d4b;
+   font-weight: bold;
+}
+.VerMais:hover{
+    background-color: #625e75;
+    transition: 0.3ms all linear;
+}
+li:hover{
+    background-color: #625e75;
+    transition: 0.3ms all linear;
+}
+
+.pizza{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.card{
+    display: inline-flex;
+    align-items: center;
+    width: 850px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+   border-radius: 20px;
+   background-color: #150e2c;
+   margin-left: 15px;
+}
+.card1{
+    display: inline-flex;
+    align-items: center;
+    width: 750px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+   border-radius: 20px;
+   background-color: #150e2c;
+   margin-left: 15px;
+   margin-top: 20px;
+}
+.description {
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+    max-width: 800px;
+}
+.description1 {
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+    max-width: 700px;
+}
+.button{
+    display:inline-flex;
+   justify-content:center;
+   margin-top: 80px;
+   margin-right: 50px;
+   height: 50px;
+   width:100%;  
+}
+.lado{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.btn_icon{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}

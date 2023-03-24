@@ -1,0 +1,53 @@
+@media screen and (max-width: 760px) {
+    
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin-top: 150px;
+    }
+    h1{
+        font-size: 25px;
+        align-content: center;
+        margin-top: 3px;
+    }
+    section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .pizza{
+      display: none;
+    }
+    p{
+        max-width: 580px;
+        justify-content: center;
+        align-content: center;
+    }
+    .cartao{
+        max-width: 580px;
+        border-radius: 2px;
+
+    }
+    .description1{
+        justify-content: center;
+        max-width: 580px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .description{
+        justify-content: center;
+        max-width: 580px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .button{
+        display: none;
+    }
+    .card1{
+        display: flex;
+        width: auto;
+    }
+}
