@@ -1,0 +1,3 @@
+# Projeto-integrado-Lazer
+Uma pagina na Web destinada ao publico do Gama-DF e entorno que busca um local para ter seu momento de lazer, seja com sua familia e amigos em algum restaurante ou em algum lugar como clubes, parques e etc...
+A pagina surgiu por conta da materia de projeto integrado ministrada na faculdade UNiceplac localizada no Gama, em busca de concluir o que é pedido na materia e também ter a possibilidade de escalar para algo mais.
